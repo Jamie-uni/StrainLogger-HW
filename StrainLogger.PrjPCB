@@ -9,12 +9,12 @@ OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=
+TemplateLocationPath=C:\Users\Public\Documents\Altium\Library\Templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
-AppendSheetNumberToLocalNets=0
+AppendSheetNumberToLocalNets=1
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=TopSheet.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EOJHOIDR
+
+[Document2]
 DocumentPath=Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LIODUCTH
 
-[Document2]
+[Document3]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QHYCSUFP
 
-[Document3]
+[Document4]
 DocumentPath=Strain.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CXRYFVNQ
 
-[Document4]
+[Document5]
 DocumentPath=StrainLogger.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,39 +122,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GNWHEJED
 
-[Document5]
-DocumentPath=..\..\Library\IC.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XMOVBXQM
+[ProjectVariant1]
+UniqueID=326617E2-D204-4507-A1C7-1E15AC9DE66B
+Description=Default 8 Channel
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
-[Document6]
-DocumentPath=..\..\Library\IC.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VQQFGAFU
+[Parameter1]
+Name=Project
+Value=Strain Logger
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Jamie Stepanian
+
+[Parameter3]
+Name=ProjectRevision
+Value=0.01
+
+[Parameter4]
+Name=ProjectVerifiedBy
+Value=
+
+[Parameter5]
+Name=SheetTotal
+Value=4
 
 [Configuration1]
 Name=Sources
@@ -1113,13 +1124,13 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
-CompClassManualRoomEnabled=0
+CompClassManualEnabled=1
+CompClassManualRoomEnabled=1
 NetClassAutoBusEnabled=1
-NetClassAutoCompEnabled=0
-NetClassAutoNamedHarnessEnabled=0
+NetClassAutoCompEnabled=1
+NetClassAutoNamedHarnessEnabled=1
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
+NetClassSeparateForBusSections=1
 
 [LibraryUpdateOptions]
 SelectedOnly=0
