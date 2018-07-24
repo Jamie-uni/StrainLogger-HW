@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for StrainLogger
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -123,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=Strain-Maxim.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WWNDMXWQ
-
-[Document7]
 DocumentPath=Strain-TI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CXRYFVNQ
 
-[Document8]
+[Document7]
 DocumentPath=StrainLogger.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,31 +161,29 @@ UniqueID=326617E2-D204-4507-A1C7-1E15AC9DE66B
 Description=Default 8 Channel
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
-Variation1=Designator=R18|UniqueId=\LCTGQAND\FAHXTCPH\VUUORLAF|Kind=1|AlternatePart= 
-Variation2=Designator=R21|UniqueId=\LCTGQAND\FAHXTCPH\VSYPPUXA|Kind=1|AlternatePart= 
-Variation3=Designator=R20|UniqueId=\LCTGQAND\FAHXTCPH\UJIYCDUX|Kind=1|AlternatePart= 
+VariationCount=1
+Variation1=Designator=X3|UniqueId=\LCTGQAND\BNTMXUUB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=SheetTotal
-Value=4
+Name=Project
+Value=Strain Logger
 
 [Parameter2]
-Name=ProjectVerifiedBy
-Value=
+Name=ProjectAuthor
+Value=Jamie Stepanian
 
 [Parameter3]
 Name=ProjectRevision
 Value=0.11
 
 [Parameter4]
-Name=ProjectAuthor
-Value=Jamie Stepanian
+Name=ProjectVerifiedBy
+Value=
 
 [Parameter5]
-Name=Project
-Value=Strain Logger
+Name=SheetTotal
+Value=4
 
 [Configuration1]
 Name=Sources
@@ -251,7 +232,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for StrainLogger
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -358,42 +339,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-2270DW series Printer
+TargetPrinter=HP LaserJet 4250 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
